@@ -422,8 +422,6 @@ form input{
     justify-items: center;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
-    /* margin-left: 300px;
-    margin-right: 490px; */
     width: fit-content;
     margin-left: 400px;
     margin-bottom: 100px;
@@ -431,13 +429,6 @@ form input{
 .trainers{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 390px;
-    margin-right: 40px;
-    background-color: rgba(255, 255, 255, 0.1);
-    padding-top: 20px;
-    padding-bottom: 20px; */
     width: 1060px;
     height: 605px;
     padding-top: 30px;
@@ -654,12 +645,17 @@ hr{
         gap: 0;
         
     }
+    header{
+        width: 576px;
+        padding: 5px 5px 5px 5px;
+    }
     /* Change Your Habits */
     .change-your-habit{
         margin-top: 600px;
     }
     .habit-group{
         flex-direction: column;
+        gap: 40px;
         
     }
 
@@ -678,12 +674,12 @@ hr{
         padding-top: 30px;
         padding-bottom: 0px;
         padding-left: 25px;
-        margin-left: 0;
 
     }
     .all-trainers{
-        margin-left: 50px;
+        /* margin-left: 50px; */
         margin-bottom: 100px;
+        margin-left:100px;
     }
     /* BMI  */
     .bmi>.for-alignment{
@@ -696,6 +692,8 @@ hr{
         padding-left: 00px;
         padding-right: 00px;
         align-items: left;
+        padding-left: 20px;
+        padding-right: 20px;
     
     }
     .bmi-calculate{
@@ -743,20 +741,22 @@ hr{
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        margin-top: 100px;
+        margin-top: 0px;
         
+    }
+    .body-in-shape p{
+        margin-right: 00px;
     }
     .shape-part img{
-        margin-left: -900px;
-        
+        text-align: center;
+        margin-top: 80px;
     }
     .five-hundred{
-        bottom: -20px;
-        left: 260px;
-    }
+        bottom: 10px;
+        left: 340px;}
     .three-hundred{
         bottom: -160px;
-        left: 50px;
+        left: 90px;
     }
 
     /* Footer part  */
@@ -778,6 +778,7 @@ hr{
     /* subscription part */
     .subscription-item{
         flex-direction: column;
+        gap: 8px;
     }
 
 
